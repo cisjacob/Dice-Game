@@ -24,7 +24,7 @@ footer{
 }
 
 .container{
-  width: 70%;
+  width: 60%;
   margin: auto;
 
 }
@@ -61,4 +61,13 @@ footer{
   img{
     width: 40%;
   }
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  .container{
+    width: 100%;
+  }
 }
+
