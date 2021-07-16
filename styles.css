@@ -15,20 +15,19 @@ p{
   font-size: 2rem;
 }
 
-img{
-  width: 60%;
-}
-
 footer{
-  margin: 3% 0 2%;
+  margin: 3% 0 0%;
+  background-color: #b9afaf;
 }
 
+/* Container */
 .container{
   width: 60%;
   margin: auto;
 
 }
 
+/* Nav Bar */
 .myNavBg{
   background-color: #b9afaf;
   color: #3b252c;
@@ -40,6 +39,11 @@ footer{
   font-family: 'Bebas Neue', cursive;
 }
 
+/* Dice Roller */
+.diceImg{
+  width: 60%;
+}
+
 .dice{
   display: inline-block;
 }
@@ -49,17 +53,35 @@ footer{
   font-size: 1.2rem;
 }
 
+#diceRoll{
+  margin-bottom: 5%;
+}
+
+
+/* Coin Flipper */
+#coinFlip{
+  margin-top: 5%;
+}
+
 .coin{
   mix-blend-mode: multiply;
   width: 40%;
 }
 
+/* Attribution */
 .attribution{
   font-weight: bold;
   text-decoration: none;
   color: #3B252C;
 }
 
+
+/* Social Images */
+.socialsImg{
+  width: 5%;
+}
+
+/* Text Styles */
 .player1Count, .player2Count, .drawCount, .rollCount, .headsCount, .tailsCount, .flipCount{
   font-style: normal;
   font-weight: bold;
@@ -75,24 +97,20 @@ footer{
   font-family: 'Roboto Mono', monospace;
 }
 
-#diceRoll{
-  margin-bottom: 5%;
-}
-
-#coinFlip{
-  margin-top: 5%;
-}
-
-
+/* Media Queries */
 @media screen and (max-width: 808px) {
   h1{
     font-size: 5rem;
     text-shadow: 1px 0 #232931;
   }
+
+  .socialsImg{
+    width: 10%;
+  }
 }
 
 @media screen and (max-width: 576px) {
-  img{
+  .diceImg{
     width: 25%;
   }
 
@@ -104,4 +122,3 @@ footer{
     width: 100%;
   }
 }
-
