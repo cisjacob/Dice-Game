@@ -1,3 +1,4 @@
+//Initializing Counts
 var rollCount = 0;
 var flipCount = 0;
 
@@ -9,13 +10,13 @@ var headsCount = 0;
 var tailsCount = 0;
 
 function diceRoller() {
-    var player1Num = Math.floor((Math.random() * 6 )+ 1);
-    var player2Num = Math.floor((Math.random() * 6 )+ 1);
+    var player1Num = Math.floor((Math.random() * 6 )+ 1); //Random number for Player 1
+    var player2Num = Math.floor((Math.random() * 6 )+ 1); //Random number for Player 2
 
     var player1Img = "images/dice" + player1Num + ".png";
     var player2Img = "images/dice" + player2Num + ".png";
 
-    document.querySelector(".img1").setAttribute("src", player1Img);
+    document.querySelector(".img1").setAttribute("src", player1Img); //Setting the image
     document.querySelector(".img2").setAttribute("src", player2Img);
 
     if(player2Num < player1Num) {
@@ -55,4 +56,3 @@ function flipCoin(){
     flipCount+=1;
     document.querySelector(".flipCount").innerText = flipCount;
 }
-
