@@ -29,6 +29,17 @@ footer{
 
 }
 
+.myNavBg{
+  background-color: #b9afaf;
+  color: #3b252c;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
 .dice{
   display: inline-block;
 }
@@ -38,15 +49,38 @@ footer{
   font-size: 1.2rem;
 }
 
+.coin{
+  mix-blend-mode: multiply;
+  width: 40%;
+}
+
 .attribution{
   font-weight: bold;
   text-decoration: none;
   color: #3B252C;
 }
 
+.player1Count, .player2Count, .drawCount, .rollCount, .headsCount, .tailsCount, .flipCount{
+  font-style: normal;
+  font-weight: bold;
+}
+.statP{
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+}
+
 .footerP{
   font-size: 0.8rem;
   font-family: 'Roboto Mono', monospace;
+}
+
+#diceRoll{
+  margin-bottom: 5%;
+}
+
+#coinFlip{
+  margin-top: 5%;
 }
 
 
@@ -70,3 +104,4 @@ footer{
     width: 100%;
   }
 }
+
