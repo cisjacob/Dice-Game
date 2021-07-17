@@ -15,8 +15,9 @@ h1{
   font-size: 6rem;
 }
 
-p{
+.headingP{
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 footer{
@@ -53,7 +54,7 @@ footer{
 }
 
 .myBtn{
-  margin: 6% auto 02%;
+  margin: 6% 0.25% 3%;
   font-size: 1.2rem;
 }
 
