@@ -57,17 +57,18 @@
         <div class="row">
   
           <div class="dice col-lg-6 col-md-6 col-sm-6 col-xs-6 alignRight">
-            <p>Player 1</p>
+            <p class="headingP">Player 1</p>
             <img class="img1 diceImg" src="images/dice6.png">
           </div>
     
           <div class="dice col-lg-6 col-md-6 col-sm-6 col-xs-6 alignLeft">
-            <p>Player 2</p>
+            <p class="headingP">Player 2</p>
             <img class="img2 diceImg" src="images/dice6.png">
           </div>
   
           <div class="col-lg-12">
             <button class="myBtn btn btn-dark" onclick="diceRoller()">Roll the dice</button>
+            <button class="myBtn btn btn-dark" onclick="resetRoll()">Reset</button>
             <p class="statP">Player 1: <span class="player1Count">0</span> <span class="verticalChar">|</span> Player 2: <span class="player2Count">0</span> <span class="verticalChar">|</span> Draws: <span class="drawCount">0</span></p>
             <p class="statP">Times rolled: <span class="rollCount">0</span></p>
           </div>
@@ -85,11 +86,13 @@
         </div>
         <div>
           <button class="myBtn btn btn-dark" onclick="flipCoin()">Flip the coin</button>
+          <button class="myBtn btn btn-dark" onclick="resetFlip()">Reset</button>
           <p class="statP">Heads: <span class="headsCount">0</span>  <span class="verticalChar">|</span> Tails: <span class="tailsCount">0</span></p>
           <p class="statP">Times flipped: <span class="flipCount">0</span></p>
         </div>
       </div>
     </section>
+    
 
   </body>
 
